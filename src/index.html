@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo, soy Karen!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<title>Caesar Cipher</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="root">
+<h1> CesarPassword </h1>
+<h2> Instrucciones </h2>
+<p1> Ingresa la palabra que quieres cifrar </p1>
+<br> <input type= "text" id= "palabraIngresada">
+<p> Selecciona el nivel </p>
+<input type="number" id="offset">
+<button onclick="encode()">Cifrar</button>
+<p id="palabraCifrada"></p>
+</div>
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+</body>
 </html>
