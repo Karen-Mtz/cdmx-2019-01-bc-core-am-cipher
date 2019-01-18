@@ -6,10 +6,5 @@ cifrar.addEventListener('click', () => {
     let palabraParaEncriptar = palabraIngresada.toUpperCase();
     let numeroIngresado = number.value;  
     let offset = parseInt(numeroIngresado)  
-    let palabraEncriptada = []
-    window.cipher.encode(offset, palabraParaEncriptar)
-    console.log(contrasenaNueva)
-    document.getElementById('palabraCifrada').innerHTML= 'Tu nueva contraseña es: ' + contrasenaNueva; 
+    window.cipher.encode(offset, palabraParaEncriptar) 
 })
-
-
