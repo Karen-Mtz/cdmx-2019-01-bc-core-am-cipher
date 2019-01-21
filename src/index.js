@@ -1,5 +1,7 @@
 const palabra = document.getElementById("palabraIngresada")
 const number = document.getElementById("num") 
+const cifrar = document.getElementById("cifrar")
+const descifrar = document.getElementById ("descifrar")
 
 cifrar.addEventListener('click', () => {
 let palabraIngresada = palabra.value;
