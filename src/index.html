@@ -2,6 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>repl.it</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="root">
 <title>Caesar Cipher</title>
 <link rel="stylesheet" href="style.css" />
 </head>
@@ -14,7 +20,14 @@
 <p> Selecciona el nivel </p>
 <input type="number" id="num">
 <button id= "cifrar">Cifrar</button>
-<p id="palabraCifrada"></p>
+ <p id="palabraCifrada"></p> 
+<br><br>
+<p1> Ingresa la palabra que quieres descifrar </p1>
+<br> <input type= "text" id= "palabraIngresadaDecode">
+<p> Selecciona el nivel </p>
+<input type="number" id="numDecode">
+<button id= "descifrar">Descifrar</button>
+<p id="palabraDescifrada"></p>
 </div>
 <script src="cipher.js"></script>
 <script src="index.js"></script>
