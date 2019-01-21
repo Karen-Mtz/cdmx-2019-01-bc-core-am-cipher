@@ -6,7 +6,8 @@ let palabraIngresada = palabra.value;
 let palabraParaEncriptar = palabraIngresada.toUpperCase();
 let numeroIngresado = number.value;  
 let offset = parseInt(numeroIngresado)  
-window.cipher.encode(offset, palabraParaEncriptar) 
+let resultEncode = window.cipher.encode(offset, palabraParaEncriptar)
+document.getElementById('palabraCifrada').innerHTML= 'Tu nueva contraseña es: ' + resultEncode; 
 }
 )
 
@@ -18,6 +19,7 @@ let palabraIngresadaDecode = palabraDecode.value;
 let palabraParaDescifrar = palabraIngresadaDecode.toUpperCase();
 let numeroIngresadoDecode = numberDecode.value;  
 let offsetDecode = parseInt(numeroIngresadoDecode)  
-window.cipher.decode(offsetDecode, palabraParaDescifrar) 
+let resultDecode = window.cipher.decode(offsetDecode, palabraParaDescifrar) 
+document.getElementById('palabraDescifrada').innerHTML= resultDecode; 
 }
 )
