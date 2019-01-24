@@ -7,21 +7,30 @@
 </head>
 <body>
 <div id="root">
-<h1> CesarPassword </h1>
-<h2> Instrucciones </h2>
-<p1> Ingresa la palabra que quieres cifrar </p1>
-<br> <input type= "text" id= "palabraIngresada">
-<p> Selecciona el nivel </p>
-<input type="number" id="num">
-<button id= "cifrar">Cifrar</button>
- <p id="palabraCifrada"></p> 
+    <div class= "encode">
+        <header></header>
+<h2> Genera una contraseña segura a partir 
+    de una palabra sencilla </h2>
+<input type= "text" id= "palabraIngresada" placeholder="Escribe una palabra">
+<br><br><input type="number" id="num" placeholder="Selecciona el nivel">
+<br><br><button id= "cifrar">Cifrar</button>
+ <p id="palabraCifrada"></p>
+</div> 
 <br><br>
-<p1> Ingresa la palabra que quieres descifrar </p1>
-<br> <input type= "text" id= "palabraIngresadaDecode">
-<p> Selecciona el nivel </p>
-<input type="number" id="numDecode">
+<div class="decode">
+<h3> ¿Quieres comprobar que tu contraseña 
+    es la palabra que seleccionaste? </h3>
+    <p1>Ingresa tu nueva contraseña y el mismo nivel 
+        que seleccionaste previamente
+    </p1>
+<br><br> <input type= "text" id= "palabraIngresadaDecode" placeholder="Copia y pega tu nueva contraseña">
+<input type="number" id="numDecode" placeholder="Selecciona el nivel">
 <button id= "descifrar">Descifrar</button>
 <p id="palabraDescifrada"></p>
+</div>
+<div class= "comoFunciona">
+
+</div>
 </div>
 <script src="cipher.js"></script>
 <script src="index.js"></script>

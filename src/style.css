@@ -1,0 +1,44 @@
+header {
+    width: 1000px;
+    height:100px;
+    color: white;
+    background: url(C:\Users\caren\Documents\Assets cipher\logo.png)
+  }
+  
+  
+  .encode{
+  
+    width: 95%;
+    background: #4C5454;
+    height: 95%;
+    padding: 50px;
+    color: #F1F5D8;
+    font-family: "Open Sans"
+  }
+  
+  h2 {
+    font-size: 50pt;
+  }
+  
+  .palabraIgresada {
+    border: none;
+    border-bottom: 2px;
+  }
+
+  .decode{
+    width: 95%;
+    background: #EAEDD4;
+    height: 100%;
+    padding: 50px;
+    color: #4C5454;
+    font-family: "Open Sans"
+
+  }
+
+  h3 {
+      font-size: 45pt;
+  }
+  
+  p {
+      font-size: 40pt;
+  }
