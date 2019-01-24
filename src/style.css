@@ -1,13 +1,13 @@
 header {
-    width: 1000px;
-    height:100px;
-    color: white;
-    background: url(C:\Users\caren\Documents\Assets cipher\logo.png)
-  }
-  
+    width: 1037px;
+    height:151px;
+    background-image: url(assets/images/logo2.png);
+    background-repeat: no-repeat; 
+    background-size: 46%;  
+    background-color: #4C5454
+}
   
   .encode{
-  
     width: 95%;
     background: #4C5454;
     height: 95%;
@@ -19,12 +19,13 @@ header {
   h2 {
     font-size: 50pt;
   }
-  
-  .palabraIgresada {
-    border: none;
-    border-bottom: 2px;
-  }
 
+  input{
+    width: 89%;
+    height: 41px;
+    border-radius: 16px;
+    text-align: center;
+  }
   .decode{
     width: 95%;
     background: #EAEDD4;
