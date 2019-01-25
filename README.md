@@ -1,5 +1,6 @@
 ![caesar-password](https://i.imgur.com/vt07x0Z.png)
 
+
 Caesar Password es una herramienta que usa la técnica de cifrado por sustitución para generar contraseñas codificadas a partir de una palabra y un nivel.
 
 Este generador de contraseñas funciona con el método de cifrado César el cual sustituye cada letra de una palabra con la letra que se encuentra un número de posiciones más adelante en el mismo alfabeto. 
