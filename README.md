@@ -26,7 +26,7 @@ Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic
 3.	Da clic en Cifrar
 4.	Espera a que tu contraseña nueva se genere
 
-![inst-encode](https://imgur.com/a/H8KNmqu)
+![inst-encode](https://imgur.com/spp9JOi.gif)
 
 **Si quieres comprobar que tu palabra se encriptó correctamente:**
 
