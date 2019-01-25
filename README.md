@@ -10,11 +10,12 @@ A diferencia de otros generadores de contraseñas, Caesar Password permite al us
 ## Usuarios
 
 Entre los usuarios de Caesar Password se encuentran internautas (de cualquier edad y región) con cuentas de correo y redes sociales que buscan proteger sus cuentas con una contraseña segura que no incluya palabras comunes y que sea única y fácil de recordar.
+
 Caesar Password ayudará a los usuarios a crear contraseñas únicas partir de palabras sencillas y un número. Estas claves serán aleatorias y no tendrán ninguna relación con palabras comunes ni información personal, lo cual hará que no sean fáciles de adivinar.
 
 ## Proceso
 
-Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic aquí
+Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic aquí https://drive.google.com/file/d/1ExeGSQ7bk5L-9GPYgA5QTkF6l_WmoZCM/view?usp=sharing
 
 ## ¿Cómo usar el generador de contraseñas?
 
@@ -24,7 +25,8 @@ Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic
 2.	Elige un nivel 
 3.	Da clic en Cifrar
 4.	Espera a que tu contraseña nueva se genere
---gif--
+
+![inst-encode](https://imgur.com/a/H8KNmqu)
 
 **Si quieres comprobar que tu palabra se encriptó correctamente:**
 
