@@ -1,4 +1,4 @@
-![caesar-password] (assets/images/logogris.png)
+![caesar-password] (http://i67.tinypic.com/mu8si0.png)
 
 Caesar Password es una herramienta que usa la técnica de cifrado por sustitución para generar contraseñas codificadas a partir de una palabra y un nivel.
 
