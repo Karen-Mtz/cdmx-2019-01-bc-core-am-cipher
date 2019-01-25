@@ -1,45 +1,118 @@
-header {
-    width: 1037px;
-    height:151px;
-    background-image: url(assets/images/logo2.png);
-    background-repeat: no-repeat; 
-    background-size: 46%;  
-    background-color: #4C5454
+html, body, #page {
+height:100%;
+width:100%;
+margin:0;
+padding:0;
 }
-  
-  .encode{
-    width: 95%;
-    background: #4C5454;
-    height: 95%;
-    padding: 50px;
-    color: #F1F5D8;
-    font-family: "Open Sans"
-  }
-  
-  h2 {
-    font-size: 50pt;
-  }
 
-  input{
-    width: 89%;
-    height: 41px;
-    border-radius: 16px;
-    text-align: center;
-  }
-  .decode{
-    width: 95%;
-    background: #EAEDD4;
-    height: 100%;
-    padding: 50px;
-    color: #4C5454;
-    font-family: "Open Sans"
+header {
+width: 914px;
+height:123px;
+background-image: url(assets/images/logo2.png);
+background-repeat: no-repeat; 
+background-size: 46%;  
+background-color: #4C5454
+}
 
-  }
+.encode{
+width: 95%;
+background: #4C5454;
+height: 95%;
+padding: 50px;
+color: #F1F5D8;
+font-family: "Open Sans"
+ }
+ 
+.buttonencode{
+display: block;
+width: 179px;
+padding: 15px;
+margin: auto;
+font-size: 16pt;
+border: none;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}  
 
-  h3 {
-      font-size: 45pt;
-  }
-  
-  p {
-      font-size: 40pt;
-  }
+.buttonencode:hover{
+background-color: #6E8281;
+color:#F1F5D8;
+}
+
+::placeholder { 
+color: #4C5454; 
+font-size: 20pt;
+}
+
+h2 {
+font-size: 40pt;
+}
+
+input{
+width: 89%;
+height: 41px;
+border-radius: 16px;
+text-align: center;
+font-family: "Open Sans"; 
+color: #6E8281;
+font-size: 16pt; 
+border: none;
+}
+
+.decode{
+width: 95%;
+background: #EAEDD4;
+height: 95%;
+padding: 50px;
+color: #4C5454;
+font-family: "Open Sans"
+}
+
+h3 {
+font-size: 40pt;
+margin-top: -16px;
+}
+
+.buttondecode{
+display: block;
+width: 179px;
+padding: 15px;
+margin: auto;
+font-size: 16pt;
+border: none;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-color:#4C5454;
+color:#EAEDD4;
+}  
+
+.buttondecode:hover{
+background-color:#D7D1B0;
+color:#4C5454;
+}
+
+::placeholder { 
+color: #4C5454; 
+font-size: 20pt;
+}
+
+.comoFunciona{
+width: 95%;
+background: #4C5454;
+height: 95%;
+padding: 50px;
+color: #F1F5D8;
+font-family: "Open Sans"
+}
+
+h4{
+font-size: 35pt;
+}
+
+p {
+ font-size: 30pt;
+}

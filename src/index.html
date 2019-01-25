@@ -5,34 +5,31 @@
 <title>Caesar Cipher</title>
 <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 <div id="root">
-    <div class= "encode">
-            <header> </header>
-<h2> Genera una contraseña segura a partir 
-    de una palabra sencilla </h2>
+<div class= "encode">
+<header> </header>
+<h2> Genera una contraseña segura a partir de una palabra sencilla </h2>
 <input type= "text" id= "palabraIngresada" placeholder="Escribe una palabra">
-<br><br><input type="number" id="num" placeholder="Selecciona el nivel">
-<br><br><button id= "cifrar">Cifrar</button>
- <p id="palabraCifrada"></p>
+<br><br><input type="number" id="num" placeholder="Selecciona el nivel" class= "selectnumber">
+<br><br><button id= "cifrar" class= "buttonencode">Cifrar</button>
 </div> 
-<br><br>
-<div class="decode">
-<h3> ¿Quieres comprobar que tu contraseña 
-    es la palabra que seleccionaste? </h3>
-    <p1>Ingresa tu nueva contraseña y el mismo nivel 
-        que seleccionaste previamente
-    </p1>
-<br><br> <input type= "text" id= "palabraIngresadaDecode" placeholder="Copia y pega tu nueva contraseña">
-<input type="number" id="numDecode" placeholder="Selecciona el nivel">
-<button id= "descifrar">Descifrar</button>
-<p id="palabraDescifrada"></p>
-</div>
-<div class= "comoFunciona">
 
+<div class="decode">
+<h3> ¿Quieres comprobar que tu contraseña es la palabra que seleccionaste? </h3>
+<p>Ingresa tu <strong>nueva contraseña</strong> y el <strong>mismo nivel</strong> que seleccionaste previamente</p>
+<input type= "text" id= "palabraIngresadaDecode" placeholder="Copia y pega tu nueva contraseña">
+<br><br><input type="number" id="numDecode" placeholder="Selecciona el nivel">
+<br><br><button id= "descifrar" class= "buttondecode">Descifrar</button>
 </div>
+
+<div class= "comoFunciona">
+<h4>¿Cómo funciona Caesar Password?</h4>
+<p><strong> Caesar Password</strong> es una herramienta que usa la técnica de cifrado por sustitución para generar <strong>contraseñas seguras</strong> a partir de una palabra sencilla y un nivel de encriptación que tú seleccionas.</p>
 </div>
+
 <script src="cipher.js"></script>
 <script src="index.js"></script>
-</body>
+</div></body>
 </html>
