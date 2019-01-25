@@ -15,9 +15,9 @@ Caesar Password ayudará a los usuarios a crear contraseñas únicas partir de p
 
 Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic aquí
 
-### ¿Cómo usar el generador de contraseñas?
+## ¿Cómo usar el generador de contraseñas?
 
-##### Si eres usuario:
+### Si eres usuario:
 
 1.	Entra a https://karen-mtz.github.io/cdmx-2019-01-bc-core-am-cipher/src/ e ingresa la palabra que quieres cifrar 
 2.	Elige un nivel 
@@ -33,7 +33,7 @@ Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic
 4.	Espera a que tu clave se descifre
 --gif--
 
-##### Si eres desarrollador y deseas una copia del proyecto:
+### Si eres desarrollador y deseas una copia del proyecto:
 
 **Necesitas:**
 
