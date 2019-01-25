@@ -34,7 +34,8 @@ Si quieres conocer cómo fue el proceso para desarrollar Caesar Password da clic
 2.	Ingresa el mismo nivel que seleccionaste previamente
 3.	Da clic en Descifrar
 4.	Espera a que tu clave se descifre
---gif--
+
+![inst-decode](https://imgur.com/GtXW8ar.gif)
 
 ### Si eres desarrollador y deseas una copia del proyecto:
 
